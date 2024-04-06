@@ -8,7 +8,7 @@ This webpage will welcome any and all users to come and input their own blogs, a
 ![screenshot project page 2](https://github.com/SouptheFull-Stack/Blogs-by-Mitra/assets/158979754/a4915d41-fecc-4364-9108-f20365789f62)
 
 # Deployment: 
-
+https://soupthefull-stack.github.io/Blogs-by-Mitra/
 
 # License 
 
