@@ -5,6 +5,8 @@ This webpage will welcome any and all users to come and input their own blogs, a
 ![screenshot project](https://github.com/SouptheFull-Stack/Blogs-by-Mitra/assets/158979754/a1b4bc72-bbf2-4ef2-941f-d5290381e03a)
 
 
+![screenshot project page 2](https://github.com/SouptheFull-Stack/Blogs-by-Mitra/assets/158979754/a4915d41-fecc-4364-9108-f20365789f62)
+
 # Deployment: 
 
 
