@@ -1,7 +1,9 @@
 # Blogs-by-Mitra
 This webpage will welcome any and all users to come and input their own blogs, as well as have a look at others' blogs. 
 
-# Screenshot
+# Screenshots
+![screenshot project](https://github.com/SouptheFull-Stack/Blogs-by-Mitra/assets/158979754/a1b4bc72-bbf2-4ef2-941f-d5290381e03a)
+
 
 # Deployment: 
 
