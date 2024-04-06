@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  height: auto;
+}
+
+h1 {
+  display: inline;
+}
+
+h1,
+h2 {
+  font-family: "Twiggy Pop", sans-serif;
+  font-size: 60px;
+  text-align: left;
+  margin: 15px;
+}
+
+h3 {
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 35px;
+}
+
+#response {
+  margin: 0px;
+  padding: 30px 0px 0px 0px;
+}
+
+nav {
+  width: 100%;
+  height: 120px;
+  border-bottom: double 18px black;
+  display: inline-block;
+}
+
+#theme-switcher {
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+  height: 60px;
+  width: 60px;
+}
+
+main {
+  height: 800px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+main img {
+  height: 35em;
+  width: 35em;
+  align-self: center;
+}
+
+.box {
+  flex: 1;
+  padding: 20px;
+}
+
+#box-left {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: Twiggy Pop;
+  src: url(tp.ttf);
+}
+
+.dark {
+  background-color: #243447;
+  height: 100vh;
+  color: #bebebe;
+  transition: 1s ease;
+  /* background 0.8s ease, color 0.8s ease, button ; */
+}
+
+.light {
+  background-color: white;
+  color: black;
+  height: 100vh;
+  transition: 1s ease;
+  /* transition: background 0.8s ease, color 0.8s ease; */
+}
+
+.input-form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input:hover,
+textarea:hover {
+  transition: 0 0 3s;
+  background-color: #aab9ce;
+}
+
+section input,
+textarea {
+  background-color: #f1f3f4;
+  border-radius: 2px;
+  border-width: 0;
+  font-size: 1em;
+  height: 45px;
+  line-height: 20px;
+  margin: 0;
+  margin-top: 10px;
+  max-width: 80%;
+  padding-left: 10px;
+  width: 80%;
+}
+
+#content {
+  height: 120px;
+}
+
+label {
+  display: block;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+textarea {
+  resize: none;
+}
+
+#submit {
+  text-align: center;
+  width: 80%;
+  height: 30px;
+  background-color: rgb(202, 155, 35);
+  border-radius: 10px;
+  margin-top: 10px;
+  box-sizing: content-box;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  border-top: double 18px black;
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+  margin-top: 30px;
+}

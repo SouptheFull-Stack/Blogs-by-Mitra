@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: Twiggy Pop;
+  src: url(tp.ttf);
+}
+
+div > img {
+  width: 100px;
+  box-sizing: content-box;
+  margin-left: 60px;
+}
+
+div > h2 {
+  overflow: auto;
+  font-size: 50px;
+}
+
+div > h3 {
+  align-self: last baseline;
+  font-size: 20px;
+}
+
+h1 {
+  display: inline;
+}
+
+h1,
+h2 {
+  font-family: "Twiggy Pop", sans-serif;
+  font-size: 60px;
+  text-align: left;
+  margin: 15px;
+}
+
+h3 {
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 35px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h4,
+a {
+  margin: 0px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #bebebe;
+  text-align: center;
+}
+
+a:hover {
+  color: white;
+  transition: 0.3s ease;
+}
+
+nav {
+  width: 100%;
+  height: 120px;
+  border-bottom: double 18px black;
+  display: inline-block;
+}
+
+#nav-box {
+  width: 30%;
+  float: right;
+  display: flex;
+  height: 138px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+#theme-switcher {
+  margin-top: 30px;
+  margin-right: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+#pages {
+  width: 15%;
+  height: 50px;
+  background-color: rgb(202, 155, 35);
+  border-radius: 10px;
+  box-sizing: content-box;
+  font-weight: bold;
+  margin-top: 35px;
+  font-size: 20px;
+  flex: 0.3;
+}
+
+.dark {
+  background-color: #243447;
+  height: 100vh;
+  color: #bebebe;
+  transition: 1s ease;
+}
+
+.light {
+  background-color: white;
+  color: black;
+  height: 100vh;
+  transition: 1s ease;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  border-top: double 18px black;
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+  margin-top: 30px;
+}
